@@ -1,0 +1,24 @@
+{
+  "name": "pencilly",
+  "version": "0.0.0",
+  "description": "pencilly.",
+  "main": "bundle.js",
+  "bin": {
+    "qudee": "bundle.js"
+  },
+  "repository" :
+   { "type" : "git"
+   , "url" : ""
+   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gl-matrix":        "2.1.0",
+    "coffeeify" : "0.6.0",
+    "watchify": "0.4.1",
+    "graphlib": "1.0.0-pre1"
+  },
+  "author": "Nikki",
+  "license": "proprietary"
+}

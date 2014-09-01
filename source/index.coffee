@@ -16,7 +16,8 @@ window.main =  ->
     #     drawRectangle(x, y, w, h)
     g = new Digraph()
     g.addNode('A')
-
+    console.log g
+    console.log g.nodes()
     console.log "hi there"
 
 window.onload = window.main
