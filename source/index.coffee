@@ -8,12 +8,12 @@
 window.main =  ->
     document.body.appendChild(stats.domElement)
     document.body.appendChild(renderer.view)
-    # for i in [0 .. 3]
-    #     x = Math.random() * window.innerWidth
-    #     y = Math.random() * window.innerHeight
-    #     w = 100 + Math.random() * 200
-    #     h = 100 + Math.random() * 200
-    #     drawRectangle(x, y, w, h)
+    for i in [0 .. 300]
+        x = Math.random() * window.innerWidth
+        y = Math.random() * window.innerHeight
+        w = 100 + Math.random() * 200
+        h = 100 + Math.random() * 200
+        drawRectangle(x, y, w, h)
     g = new Digraph()
     g.addNode('A')
     console.log g

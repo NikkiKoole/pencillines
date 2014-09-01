@@ -17,7 +17,7 @@
     "gl-matrix":        "2.1.0",
     "coffeeify" : "0.6.0",
     "watchify": "0.4.1",
-    "graphlib": "1.0.0-pre1"
+    "graphlib": "0.7.4"
   },
   "author": "Nikki",
   "license": "proprietary"
